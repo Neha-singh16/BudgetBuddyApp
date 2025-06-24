@@ -3,12 +3,13 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+ 
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "npm install && npm install --prefix BudgetApp && npm run build --prefix BudgetApp",
-    "start": "nodemon budgetBuddy-backend/src/app.js",
-    "dev": "nodemon budgetBuddy-backend/src/app.js"
-  },
+  "build": "npm install && npm install --prefix BudgetApp && npm run build --prefix BudgetApp",
+  "start": "node budgetBuddy-backend/src/app.js",
+  "dev": "nodemon budgetBuddy-backend/src/app.js"
+},
+
   "keywords": [],
   "author": "",
   "license": "ISC",
