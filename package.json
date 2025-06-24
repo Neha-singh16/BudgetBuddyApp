@@ -6,8 +6,8 @@
  
   "scripts": {
   "build": "npm install && npm install --prefix BudgetApp && npm run build --prefix BudgetApp",
-  "start": "node budgetBuddy-backend/src/app.js",
-  "dev": "nodemon budgetBuddy-backend/src/app.js"
+  "start": "nodemon budgetBuddy-backend/app.js",
+  "dev": "nodemon budgetBuddy-backend/app.js"
 },
 
   "keywords": [],
